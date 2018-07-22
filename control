@@ -1,0 +1,9 @@
+Package: com.LemaMichael.displaybattery
+Name: DisplayBattery
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Displays battery percentage when deleting an app.
+Maintainer: Michael Lema
+Author: Michael Lema
+Section: Tweaks
