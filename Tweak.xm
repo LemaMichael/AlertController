@@ -33,7 +33,7 @@ completion:(void (^)(void))completion {
             [message appendString: [NSString stringWithFormat: @"%@ : %lld%%\n", deviceName,deviceCharge]];
             [message appendString: [NSString stringWithFormat: @"%s%@", "Is the battery low? ", isLowBattery ? @"Yes" : @"NO"]];*/
             
-            [message appendString: [NSString stringWithFormat: @"%@ : %lld%%. %s%@\n", deviceName, deviceCharge, "Is the battery low? ", isLowBattery ? @"Yes" : @"No" ]];
+            [message appendString: [NSString stringWithFormat: @"%@: %lld%%. %s%@\n", deviceName, deviceCharge, "Is the battery low? ", isLowBattery ? @"Yes" : @"No" ]];
 
         }
         
